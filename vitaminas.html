@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitaminas - Biología 9°</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #BDBDBD;
+      color: #333;
+    }
+
+    /* Barra global */
+    .barra-global {
+      background: #1F456E;
+      padding: 12px;
+      text-align: left;
+    }
+
+    .barra-global a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .barra-global a:hover {
+      color: #5658A8;
+    }
+
+    header {
+      background: linear-gradient(90deg, #3A6594, #3A6594);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 5px solid #6193C2
+;
+    }
+
+    nav {
+      background: #6193C2;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #6193C2;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #3A6594;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #6193C2;
+    }
+
+    .actividad {
+      background: #e0f7fa;
+      border-left: 5px solid #6193C2;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #3A6594;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra global -->
+   <div class="barra-global">
+    <a href="index.html">Inicio</a>
+    <a href="adn.html">ADN</a>
+    <a href="vitaminas.html">Vitaminas</a>
+    <a href="retovitaminico.html">Reto Vitamínico</a>
+    <a href="arn.html">ARN</a>
+    <a href="videosyjuegos.html">Videos y Juegos</a>
+  </div>
+
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Las Vitaminas</h1>
+    <p>Proyecto de Biología - 9° Grado</p>
+  </header>
+
+  <!-- Navegación interna -->
+  <nav>
+    <a href="#introduccion">Introducción</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#funciones">Funciones</a>
+    <a href="#fuentes">Fuentes</a>
+    <a href="#deficiencia">Deficiencia</a>
+    <a href="#exceso">Exceso</a>
+    <a href="#actividades">Actividades</a>
+  </nav>
+  <!-- Introducción -->
+  <section id="introduccion">
+    <h2>¿Qué son las Vitaminas?</h2>
+    <p>
+     Las vitaminas son un grupo de sustancias que son necesarias para el funcionamiento celular, el crecimiento y el desarrollo normales.
+
+    </p>
+    <div class="imagen">
+      <img src="https://www.recetasnestle.cl/sites/default/files/styles/crop_article_banner_desktop_nes/public/2024-01/vitaminas-esenciales-frutas.webp?itok=liCIqL7m" alt="Alimentos con vitaminas">
+    </div>
+  </section>
+  <!-- Importancia -->
+  <section id="importancia">
+    <h2>Importancia de las Vitaminas</h2>
+    <h3>Vitaminas Liposolubles</h3>
+    <p>Las vitaminas liposolubles desempeñan un papel fundamental en numerosos procesos fisiológicos, como la visión, la salud ósea, la función inmunitaria y la coagulación..</p>
+    <ul>
+      <li>Vitamina A</li>
+      <li>Vitamina D</li>
+      <li>Vitamina E</li>
+      <li>Vitamina K</li>
+    </ul>
+    <h3>Vitaminas Hidrosolubles</h3>
+    <p>Las vitaminas hidrosolubles (Vitamina C y del complejo B) son esenciales para el metabolismo, la producción de energía, el funcionamiento del sistema inmunológico, y la salud de la piel, huesos y nervios..</p>
+    <ul>
+      <li>Vitamina C</li>
+      <li>Complejo B (B1, B2, B3, B6, B12, etc.)</li>
+    </ul>
+  </section>
+
+  <!-- Tipos -->
+  <section id="tipos">
+    <h2>Tipos de Vitaminas</h2>
+    <h3>Vitaminas Liposolubles</h3>
+    <p>Se disuelven en grasas y lípidos.</p>
+    <ul>
+      <li>Vitamina A</li>
+      <li>Vitamina D</li>
+      <li>Vitamina E</li>
+      <li>Vitamina K</li>
+    </ul>
+    <h3>Vitaminas Hidrosolubles</h3>
+    <p>Se disuelven fácilmente en el agua.</p>
+    <ul>
+      <li>Vitamina C</li>
+      <li>Complejo B (B1, B2, B3, B6, B12, etc.)</li>
+    </ul>
+  </section>
+
+  <!-- Funciones -->
+  <section id="funciones">
+    <h2>Funciones de las Vitaminas</h2>
+
+    <h3>Liposolubles</h3>
+    <ul>
+      <li><strong>A:</strong> Protege la salud visual.</li>
+      <li><strong>D:</strong> Favorece la absorción intestinal y protege el sistema óseo.</li>
+      <li><strong>E:</strong> Favorece a la función inmunológica.</li>
+      <li><strong>K:</strong> Ayuda a la coagulación de la sangre..</li>
+    </ul>
+
+    <h3>Hidrosolubles</h3>
+    <ul>
+      <li><strong>C:</strong> Refuerza el sistema inmunológico.</li>
+      <li><strong>B:</strong> Apoya el metabolismo y la energía.</li>
+    </ul>
+  </section>
+
+  <!-- Fuentes -->
+  <section id="fuentes">
+    <h2>Fuentes Naturales de Vitaminas</h2>
+
+    <h3>Liposolubles</h3>
+    <ul>
+      <li><strong>A:</strong> Brócoli, espinaca, huevos.</li>
+      <li><strong>D:</strong> Champiñones, hígado de res, queso.</li>
+      <li><strong>E:</strong> Aceites vegetales, nueces, semillas.</li>
+      <li><strong>K:</strong> Coliflor, repollo, cereales.</li>
+    </ul>
+
+    <h3>Hidrosolubles</h3>
+    <ul>
+      <li><strong>C:</strong> Kiwi, piña, sandía.</li>
+      <li><strong>Complejo B:</strong> Cereales integrales, carne, legumbres.</li>
+    </ul>
+
+    <div class="imagen">
+      <img src="https://image.tuasaude.com/media/article/dw/ac/alimentos-ricos-en-vitaminas_47723.jpg?width=686&height=487" alt="Frutas ricas en vitaminas">
+    </div>
+  </section>
+
+  <!-- Deficiencia -->
+  <section id="deficiencia">
+    <h2>Consecuencias de la Deficiencia</h2>
+
+    <h3>Liposolubles</h3>
+    <ul>
+      <li><strong>A:</strong> Ceguera nocturna, xeroftalmia./li>
+      <li><strong>D:</strong> Confusión y desorientación.</li>
+      <li><strong>E:</strong> Debilidad muscular.</li>
+      <li><strong>K:</strong> Problemas de coagulación.</li>
+    </ul>
+
+    <h3>Hidrosolubles</h3>
+    <ul>
+      <li><strong>C:</strong> Escorbuto, encías sangrantes.</li>
+      <li><strong>B:</strong> Anemia, cansancio, alteraciones neurológicas.</li>
+    </ul>
+  </section>
+
+  <!-- Exceso -->
+  <section id="exceso">
+    <h2>Consecuencias del Exceso de Vitaminas</h2>
+
+    <h3>Liposolubles</h3>
+    <ul>
+      <li><strong>A:</strong> Intoxicación aguda, intoxicación crónica.</li>
+      <li><strong>D:</strong> Calcificación de órganos, daño renal.</li>
+      <li><strong>E:</strong> Náuseas, riesgo de sangrado.</li>
+      <li><strong>K:</strong> Daños en el hígado (en exceso artificial).</li>
+    </ul>
+
+    <h3>Hidrosolubles</h3>
+    <ul>
+      <li><strong>C:</strong> Problemas digestivos, cálculos renales.</li>
+      <li><strong>B6:</strong> Daños nerviosos en exceso.</li>
+    </ul>
+  </section>
+
+  <!-- Actividades -->
+  <section id="actividades">
+    <h2>Actividades Interactivas</h2>
+    <div class="actividad">
+      <strong>1.</strong> Clasifica: ¿Son liposolubles o hidrosolubles las vitaminas A, C, K, B12?
+    </div>
+    <div class="actividad">
+      <strong>2.</strong> Investiga: ¿Qué enfermedad produce la falta de Vitamina C?
+    </div>
+    <div class="actividad">
+      <strong>3.</strong> Explica: ¿Qué riesgos trae el exceso de Vitamina D?
+    </div>
+  </section>
+
+  <footer>
+    <p>Proyecto escolar - Biología 9° Grado | Créditos: Imágenes libres de derechos</p>
+  </footer>
+</body>
+</html>
